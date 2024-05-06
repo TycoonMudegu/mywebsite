@@ -16,6 +16,10 @@ $routes = [
     // Add more routes as needed
 ];
 
+// Debugging
+echo 'Current URI: ' . $uri . '<br>';
+echo 'Path: ' . $path . '<br>';
+
 // Check if the current URI is in the routes array
 if (array_key_exists($path, $routes)) {
     require_once $routes[$path];
