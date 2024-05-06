@@ -1,5 +1,11 @@
 <?php
 include 'navbar.php';
+// Get the current URI
+$uri = $_SERVER['REQUEST_URI'];
+
+// Debugging
+echo 'Current URI: ' . $uri . '<br>';
+
 ?>
 
 <style>
