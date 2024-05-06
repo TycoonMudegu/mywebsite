@@ -7,7 +7,7 @@ $uri = $_SERVER['REQUEST_URI'];
 $path = strstr($uri, '?', true) ?: $uri;
 
 // Define the base directory
-$baseDir = '/Tycoonweb';
+$baseDir = 'https://tycoontest-92caab624ce2.herokuapp.com';
 
 // Map URIs to corresponding PHP files
 $routes = [
