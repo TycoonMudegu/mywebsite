@@ -212,15 +212,3 @@ html {
     </a>
 </section>
 
-<script>
-      function scrollToNextSection() {
-            const currentSection = document.querySelector('.arrow-section');
-            const nextSection = currentSection.nextElementSibling;
-            const offset = nextSection.offsetTop - currentSection.offsetHeight;
-
-            window.scrollTo({
-                top: offset,
-                behavior: 'smooth'
-            });
-        }
-    </script>
